@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>번아웃 · 정책</title>
+<style>
+  :root{ --bg:#FBFAF8; --ink:#1F2328; --sub:#6B7078; --line:#E7E4DF; --card:#FFFFFF; --accent:#C1734D; }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171A; --ink:#ECEDEE; --sub:#9BA1A8; --line:#262A2E; --card:#191D21; --accent:#D2865F; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);display:flex;align-items:center;justify-content:center;
+    font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",'Apple SD Gothic Neo',sans-serif}
+  .wrap{max-width:520px;width:100%;padding:40px 24px;text-align:center}
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  h1{font-family:"Noto Serif KR",Georgia,serif;font-size:40px;margin:.2em 0 .1em}
+  .tag{font-family:"Noto Serif KR",Georgia,serif;font-style:italic;color:var(--sub);margin-bottom:36px}
+  a.card{display:block;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);
+    border-radius:16px;padding:20px 22px;margin:12px 0;text-align:left;transition:border-color .15s}
+  a.card:hover{border-color:var(--accent)}
+  a.card b{font-size:16px} a.card span{display:block;color:var(--sub);font-size:13.5px;margin-top:4px}
+  .foot{margin-top:34px;color:var(--sub);font-size:12.5px}
+  .foot a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Burnout</div>
+  <h1>번아웃</h1>
+  <div class="tag">불확실한 세상에서 나를 찾는 여행</div>
+  <a class="card" href="privacy.html"><b>개인정보처리방침</b><span>어떤 정보를 어떻게 다루는지</span></a>
+  <a class="card" href="terms.html"><b>서비스 이용약관</b><span>서비스 이용의 권리와 약속</span></a>
+  <div class="foot">문의: <a href="mailto:hirodi8309@gmail.com">hirodi8309@gmail.com</a> · © 2026 번아웃</div>
+</div>
+</body>
+</html>
